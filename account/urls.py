@@ -19,15 +19,4 @@ urlpatterns = [
     path('addacademic/<int:pk>', views.addacademic, name='addacademic'),
     path('viewacademic', views.viewacademic, name='viewacademic'),
 
-   """  path('category/', views.category, name='category'),
-    path('addquestion/', views.addquestion, name='addquestion'), """
-   """  path('allquestion/', views.allquestion, name='allquestion'),
-    path('addnews/', views.addnews, name='addnews'),
-    path('allnews/', views.allnews, name='allnews'),
-    path('addpin/', views.addpin, name='addpin'),
-    path('allpin/', views.allpin, name='allpin'),
-    path('allstudent/', views.allstudent, name='allstudent'),
-    path('addacademic/<int:pk>', views.addacademic, name='addacademic'), """
-   
-
-]
+  ]
